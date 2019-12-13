@@ -120,6 +120,7 @@ void ListInsert(ListNode* pos, DataType x)
 	prev->next = node;
 	node->next = pos;
 	node->prev = prev;
+	pos->prev = node;
 }
 
 // 双向链表删除pos位置的节点

@@ -9,7 +9,7 @@ void test()
 	//ListPopBack(head);
 	ListPushFront(head, 0);
 	//ListPopFront(head);
-	//ListInsert( head, 10);
+	ListInsert( head, 10);
 	ListErase(head->prev);
 	ListPrint(head);
 	//ListNode *data = ListFind(head, 1);
