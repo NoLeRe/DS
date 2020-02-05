@@ -12,7 +12,7 @@ void test()
 	SListprint(new);*/
 	SListInsertAfter(plist, 20);
 	SListEraseAfter(plist);
-	SListDestory(&plist);
+	//SListDestory(&plist);
 	SListprint(plist);
 }
 
