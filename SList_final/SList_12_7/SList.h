@@ -5,7 +5,6 @@
 #pragma warning(disable:4996)
 
 typedef int DataType;
-
 typedef struct ListNode
 {
 	DataType data;
